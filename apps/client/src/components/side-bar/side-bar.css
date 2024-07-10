@@ -1,0 +1,147 @@
+.custom-sider {
+  height: 100vh;
+  background-color: #fff;
+  /* border-inline-end: 1px solid rgba(5, 5, 5, 0.06); */
+  overflow-y: auto;
+}
+
+.drawer-button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .ant-menu-submenu-title {
+    padding-left: 24px !important;
+  }
+
+  .ant-menu-sub .ant-menu-submenu-title {
+    padding-left: 48px !important;
+  }
+
+  .ant-menu-sub .ant-menu-item {
+    padding-left: 72px !important;
+  }
+}
+
+.site-layout {
+  padding: 24px;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.custom-sider {
+  width: 100% !important;
+}
+
+.custom-sider .ant-menu {
+  width: 100% !important;
+}
+
+.second-level-container {
+  padding: 0 !important;
+}
+
+.second-level-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.second-level-item.active {
+  background-color: #f0f0f0;
+}
+
+.third-level-menu {
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+  padding: 16px;
+}
+
+.third-level-menu .adm-list.adm-list-default.adm-check-list {
+  max-height: 300px !important;
+  overflow-y: auto !important;
+}
+
+.third-level-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.select-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.submenu-arrow {
+  transition: transform 0.3s;
+}
+
+@media (min-width: 769px) {
+  .custom-sider {
+    width: 200px !important;
+  }
+  .ant-menu-inline {
+    padding: 0px 4px;
+  }
+  .ant-menu-inline.ant-menu-light {
+    border-inline-end: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .ant-menu-submenu-title {
+    padding-left: 24px !important;
+  }
+
+  .ant-menu-sub .ant-menu-submenu-title {
+    padding-left: 48px !important;
+  }
+
+  .ant-menu-sub .ant-menu-item {
+    padding-left: 72px !important;
+  }
+
+  .third-level-menu {
+    border-left: 1px solid #f0f0f0;
+    margin-left: 16px;
+  }
+
+  .ant-menu-inline .ant-menu-item,
+  .ant-menu-inline .ant-menu-submenu-title {
+    width: 100%;
+  }
+}
+
+.resizer-container {
+  width: 10px;
+  cursor: ew-resize;
+  background-color: white;
+}
+
+.resizer-container {
+  position: relative;
+  width: 10px;
+  cursor: ew-resize;
+  z-index: 10;
+}
+
+.resizer {
+  width: 2px;
+  height: 100%;
+  background-color: #ccc;
+  position: absolute;
+  left: 4px;
+  transition: width 0.2s ease;
+}
+
+.resizer-container:hover .resizer {
+  width: 6px;
+}
