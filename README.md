@@ -77,11 +77,6 @@ We welcome contributions to Fiona AI! Please see our [CONTRIBUTING.md](link-to-c
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
-
-- (List any libraries, tools, or resources you've used)
-- (Credit any inspirations or similar projects)
-
 ## Contact
 
 For any queries or feedback, please reach out to [taiwanesesound@gmail.com](taiwanesesound@gmail.com).
